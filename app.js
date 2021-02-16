@@ -106,7 +106,7 @@ function buildParkListDiv(data) {
     parkListError.setAttribute("class", "container");
     parkListError.innerHTML = "";
     let listError = document.createElement("p");
-    listError.setAttribute("class", "errorText blue-text accent-3");
+    listError.setAttribute("class", "errorText deep-orange darken-4");
     listError.innerHTML = "Check Typing  -OR-  No Parks listed";
     let listError1 = document.createElement("p");
     listError1.setAttribute("class", "errorText");
