@@ -1,0 +1,44 @@
+/*-----------setting up chat Page----------*/
+
+#logoutBTN {
+    max-width: 12px;
+    max-height: 10px;
+}
+
+#user {
+    max-width: auto;
+    max-height: 300px;
+    margin: 30px;
+
+    display: flex;
+    justify-content: center;
+}
+
+#user p {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#user div {
+    margin: 0px 20px 0px 20px;
+}
+
+.avatar {
+    vertical-align: middle;
+    width: 50px;
+    height: 50px;
+    border-radius: 10%;
+}
+
+.placeholder {
+    text-align: center;
+}
+
+.chatPage h2 {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.chatPage tr {
+    text-align: left;
+}

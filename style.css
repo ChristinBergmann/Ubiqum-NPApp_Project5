@@ -1,0 +1,349 @@
+body {
+  background: url("./Images/redwood_1920x1080.jpg") no-repeat center fixed;
+  /* background: rgba(20, 20, 20, 0.7); */
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  color: white;
+}
+
+main {
+  margin: 0 auto;
+  min-height: calc(100vh - 300px - 21px);
+  /* background-color: rgba(20, 20, 20, 0.7); */
+}
+
+.icon-white {
+  color: white;
+}
+.header {
+  overflow: auto;
+}
+
+.navBar {
+  margin-top: 2vh;
+}
+
+.navRight {
+  justify-content: end;
+  position: absolute;
+  right: 5vw;
+}
+
+.navLeft {
+  position: absolute;
+  vertical-align: middle;
+  justify-content: start;
+  left: 5vw;
+}
+
+#headline {
+  display: flex;
+  justify-content: center;
+  margin-top: 3vh;
+  margin-bottom: 3vh;
+}
+.header h1 {
+  margin-top: 9vh;
+}
+
+.header h2 {
+  margin-top: 6vh;
+}
+
+h1 {
+  font-size: 5vw;
+  text-shadow: 4px 4px 6px rgb(136, 134, 134);
+  margin-top: 6vh;
+}
+
+h2 {
+  font-size: 3vw;
+  text-shadow: 3px 3px 5px rgb(136, 134, 134);
+  margin-top: 2vh;
+}
+
+h4 {
+  font-size: 1vw;
+  text-shadow: 3px 3px 5px rgb(136, 134, 134);
+  margin-top: 7vh;
+}
+
+a {
+  color: rgb(31, 129, 129);
+  text-shadow: 2px 2px rgb(1, 17, 13);
+}
+
+a:hover {
+  font-size: larger;
+}
+
+i:hover {
+  color: lightblue;
+}
+
+/*-------------to switch pages ---------*/
+
+.user {
+  display: none;
+}
+
+.chatPage {
+  display: none;
+}
+
+.firstPage {
+  display: none;
+}
+
+.secondPage {
+  display: none;
+}
+
+.thirdPage {
+  display: none;
+}
+
+.fourthPage {
+  display: none;
+}
+
+.active {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/*----------------first Page style------------*/
+
+.carousel div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nameImg {
+  text-align: center;
+}
+
+.imgCaption {
+  cursor: pointer;
+}
+
+#searchContainer {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  vertical-align: 50%;
+  margin: 50px 5px 10px 5px;
+
+  visibility: visible;
+}
+
+#searchContainer input {
+  width: 220px;
+  border-radius: 5px;
+  text-align: center;
+  color: rgb(32, 175, 163);
+}
+
+#searchContainer button {
+  width: 75px;
+  height: 30px;
+  font-optical-sizing: auto;
+}
+
+#searchButton {
+  justify-content: center;
+  color: white;
+  box-shadow: 2px 3px rgb(223, 220, 220);
+  border: none;
+  border-radius: 5px;
+}
+
+#errorDiv {
+  /* max-width: auto;
+  max-height: 300px; */
+  margin: 30px;
+
+  position: relative;
+  display: flex;
+  flex-direction: column;
+
+  visibility: hidden;
+}
+
+.errorText {
+  text-align: center;
+  max-width: auto;
+  max-height: 300px;
+}
+
+#dropdownList {
+  /* max-width: auto;
+  max-height: 300px; */
+  margin: 20px 30px;
+
+  background-color: rgba(20, 20, 20, 0.3);
+  box-shadow: 2px 2px 5px black;
+  padding: 10px 30px;
+  border-radius: 15px;
+
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  overflow: auto;
+  visibility: hidden;
+}
+
+.divTR {
+  max-width: auto;
+  max-height: 300px;
+
+  flex-flow: row wrap;
+  text-align: center;
+}
+
+.divTR p:hover {
+  color: rgb(64, 195, 151);
+  text-shadow: 3px 3px 5px rgb(3, 3, 3);
+  cursor: pointer;
+}
+*/
+/*-------------setting up second Page-----*/
+.navBTN div {
+  display: flex;
+  flex-direction: row;
+  /* justify-content: center;
+  margin: 0 auto; */
+  padding: 10px;
+}
+
+.navBTN button {
+  font-size: 2vw;
+  border-radius: 4px;
+}
+
+.link-btn {
+  margin: 10px;
+}
+
+.contextInfo {
+  margin: 10px 30px;
+  position: relative;
+  text-align: center;
+  overflow: auto;
+  background-color: rgba(20, 20, 20, 0.6);
+  box-shadow: 2px 2px 5px black;
+  padding: 10px;
+  border-radius: 15px;
+}
+
+.secondPageBTNs {
+  padding: 0px 20px 0px 20px;
+}
+
+/*-------------setting up fourth Page------*/
+
+.campDiv {
+  margin: 0px 15px;
+  background-color: rgba(20, 20, 20, 0.6);
+  padding: 15px 10px;
+  border-radius: 15px;
+}
+
+.campDiv div {
+  text-align: center;
+}
+
+.campDiv h1 {
+  text-align: center;
+  margin: 0 auto;
+  padding: 7px;
+}
+
+/*-----------back button--------------*/
+
+#backBTN {
+  font-optical-sizing: auto;
+  font-size: 1vw;
+  border-radius: 4px;
+  padding: 20px;
+}
+
+#button {
+  max-width: auto;
+  font-size: 2vw;
+  border-radius: 4px;
+}
+
+/*-----------footer--------------*/
+
+.copyright {
+  display: flex;
+  justify-content: center;
+}
+
+/* iphone 3 */
+@media only screen and (min-device-width: 320px) and (max-device-height: 480px) and (-webkit-device-pixel-ratio: 1) {
+  body {
+    background: url("Images/redwood_320x480.jpg") no-repeat center center fixed;
+  }
+}
+
+/* iphone 4 */
+@media only screen and (min-device-width: 320px) and (max-device-height: 480px) and (-webkit-device-pixel-ratio: 2) {
+  body {
+    background: url("Images/redwood_320x480.jpg") no-repeat center center fixed;
+    /* background: url("Images/road_320x480.jpg") no-repeat center center fixed; */
+  }
+}
+
+/* iphone 5 */
+@media only screen and (min-device-width: 320px) and (max-device-height: 568px) and (-webkit-device-pixel-ratio: 2) {
+  body {
+    background: url("Images/redwood_640x960.jpg") no-repeat center center fixed;
+    /* background: url("Images/road_640x960.jpg") no-repeat center center fixed; */
+  }
+}
+
+/* iphone 6, 6s, 7, 8 */
+@media only screen and (min-device-width: 375px) and (max-device-height: 667px) and (-webkit-device-pixel-ratio: 2) {
+  body {
+    background: url("Images/redwood_640x960.jpg") no-repeat center center fixed;
+    /* background: url("Images/road_640x960.jpg") no-repeat center center fixed; */
+  }
+}
+
+/* iphone 6+, 6s+, 7+, 8+ */
+@media only screen and (min-device-width: 414px) and (max-device-height: 736px) and (-webkit-device-pixel-ratio: 3) {
+  body {
+    background: url("Images/redwood_640x960.jpg") no-repeat center center fixed;
+    /* background: url("Images/road_640x960.jpg") no-repeat center center fixed; */
+  }
+}
+
+/* iphone X , XS, 11 Pro */
+@media only screen and (min-device-width: 375px) and (max-device-height: 812px) and (-webkit-device-pixel-ratio: 3) {
+  body {
+    background: url("Images/redwood_640x960.jpg") no-repeat center center fixed;
+    /* background: url("Images/road_640x960.jpg") no-repeat center center fixed; */
+  }
+}
+
+/* iphone XR, 11 */
+@media only screen and (min-device-width: 414px) and (max-device-height: 896px) and (-webkit-device-pixel-ratio: 2) {
+  body {
+    background: url("Images/redwood_640x960.jpg") no-repeat center center fixed;
+    /* background: url("Images/road_640x960.jpg") no-repeat center center fixed; */
+  }
+}
+
+/* iphone XS Max, 11 Pro Max */
+@media only screen and (min-device-width: 414px) and (max-device-height: 896px) and (-webkit-device-pixel-ratio: 3) {
+  body {
+    background: url("Images/redwood_640x960.jpg") no-repeat center center fixed;
+    /* background: url("Images/road_640x960.jpg") no-repeat center center fixed; */
+  }
+}

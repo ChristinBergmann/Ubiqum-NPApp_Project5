@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>National Parks-USA</title>
+  <link rel="stylesheet" href="  https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.css" />
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="chat.css" />
+</head>
+
+<body>
+  <header>
+    <div class="header">
+
+      <div class="navBar">
+        <div class="navLeft">
+          <i class="small material-icons icon-white" onclick="login()" mouseover="hover">chat</i>
+          <i class="small material-icons icon-white"><a href="index.html">home</a></i>
+        </div>
+        <div class="navRight">
+          <a href="http://nps.gov" target="_blank">Official HP of NPS</a>
+        </div>
+      </div>
+
+      <div id="headline">
+        <h4>50random</h4>
+        <h1 class="header">NATIONAL PARKS</h1>
+        <h2 class="header">IN THE US</h2>
+      </div>
+
+    </div>
+  </header>
+
+  <main>
+    <div class="user" id="user">
+    </div>
+    <div class="chatPage" id="chatPage">
+    </div>
+    <div class="firstPage active" id="firstPage">
+      <div alt="Images of National Parks" id="carouselID" class="carousel">
+      </div>
+      <div id="searchContainer">
+        <input class="search" type="text" placeholder="search by State Code" id="searchInput" spellcheck="true">
+        <button class="search" id="searchButton">GO</button>
+      </div>
+      <div id="dropdownList"></div>
+      <div id="errorDiv"></div>
+    </div>
+    <div class="secondPage" id="secondPage">
+    </div>
+    <div class="thirdPage" id="thirdPage">
+    </div>
+    <div class="fourthPage" id="fourthPage">
+    </div>
+  </main>
+
+  <footer>
+    <div class="footer-copyright">
+      <div class="container">
+        <p class="copyright">&copy;Christin`s Mobile App || 2020</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://www.gstatic.com/firebasejs/7.4.0/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/7.4.0/firebase-auth.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/7.4.0/firebase-firestore.js"></script>
+
+  <script defer src="./secrets.js"></script>
+  <script async defer src="login.js"></script>
+  <script async defer src="app.js"></script>
+  <script async defer src="campgrounds.js"></script>
+  <script defer src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.js"></script>
+  <!-- <script async defer src="https://maps.googleapis.com/maps/api/js?key=${API_key}&callback=initMap">
+  </script> -->
+</body>
+
+</html>
