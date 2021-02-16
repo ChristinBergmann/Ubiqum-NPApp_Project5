@@ -10,9 +10,10 @@ function buildFourthPage(event, parkCode) {
   //fetch live data of specific campground:
   fetch(
     `https://developer.nps.gov/api/v1/campgrounds?&api_key=${API_key}&parkCode=${parkCode}`
-  ).then(
+  )
+    .then(
       (response) => {
-        console.log(response)
+        console.log(response);
         return response.json();
       },
       (rejection) => {
@@ -21,11 +22,11 @@ function buildFourthPage(event, parkCode) {
     )
     .then((result) => {
       let data = result.data;
-  
+
       if (data == 0) {
         // Error Div:
         let divErrorCamp = document.createElement("div");
-        divErrorCamp.setAttribute("class", "contextInfo");
+        divErrorCamp.setAttribute("class", "contextErrorInfo");
         divErrorCamp.innerHTML = "Sorry there are no campgrounds listed";
 
         // BACK button:
@@ -84,7 +85,6 @@ function buildFourthPage(event, parkCode) {
           hr.style.color = "white";
           hr.style.width = "70%";
 
-          
           // Camp Reservations:
           let divReservations = document.createElement("div");
           divReservations.setAttribute("class", "contextInfo");
@@ -135,4 +135,3 @@ function buildFourthPage(event, parkCode) {
       }
     });
 }
-

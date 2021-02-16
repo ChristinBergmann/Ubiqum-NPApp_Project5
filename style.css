@@ -114,6 +114,7 @@ i:hover {
   flex-direction: column;
   align-items: center;
   margin-top: 50px;
+  margin-bottom: 80px;
 }
 
 /*----------------first Page style------------*/
@@ -245,6 +246,15 @@ i:hover {
 }
 
 /*-------------setting up fourth Page------*/
+
+.contextErrorInfo {
+  margin: 100px 30px 10px;
+  text-align: center;
+  background-color: rgba(20, 20, 20, 0.6);
+  box-shadow: 2px 2px 5px black;
+  padding: 10px;
+  border-radius: 10px;
+}
 
 .campDiv {
   margin: 0px 15px;
