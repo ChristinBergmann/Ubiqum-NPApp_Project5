@@ -50,7 +50,7 @@ fetch(`${api_Url}`)
         carousel.appendChild(a);
       }
     }
-    // M.AutoInit(); // for maps of location- not implemented yet
+    M.AutoInit(); // calls the carousel
     filterParkListDiv(data);
   })
   .catch(function (error) {

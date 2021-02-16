@@ -11,7 +11,6 @@ body {
 main {
   margin: 0 auto;
   min-height: calc(100vh - 200px - 21px);
-  /* background-color: rgba(20, 20, 20, 0.7); */
 }
 
 .icon-white {
@@ -148,6 +147,7 @@ i:hover {
   border-radius: 5px;
   text-align: center;
   color: rgb(32, 175, 163);
+  text-transform: uppercase;
 }
 
 #searchContainer button {
@@ -306,6 +306,8 @@ i:hover {
   justify-content: center;
   bottom: 0;
 }
+
+/*------------------------------- MEDIA QUERIES -------------------------------*/
 
 /* iphone 3 */
 @media only screen and (min-device-width: 320px) and (max-device-height: 480px) and (-webkit-device-pixel-ratio: 1) {
