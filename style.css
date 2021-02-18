@@ -9,10 +9,10 @@ body {
   color: white;
 }
 
-main {
+/* main {
   margin: 0 auto;
   min-height: calc(100vh - 200px - 21px);
-}
+} */
 
 .icon-white {
   color: white;
@@ -114,17 +114,15 @@ i:hover {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 50px;
-  margin-bottom: 80px;
 }
 
 /*----------------first Page style------------*/
 
-.carousel div {
+/* .carousel div {
   display: flex;
   justify-content: center;
   align-items: center;
-}
+} */
 
 .nameImg {
   text-align: center;
@@ -140,7 +138,6 @@ i:hover {
   align-items: center;
   vertical-align: 50%;
   margin: 50px 5px 10px 5px;
-
   visibility: visible;
 }
 
@@ -306,71 +303,8 @@ i:hover {
 .copyright {
   display: flex;
   justify-content: center;
-  margin-top: 500px;
+  /* margin-top: 500px; */
   bottom: 0;
 }
 
 /*------------------------------- MEDIA QUERIES -------------------------------*/
-
-/* iphone 3 */
-@media only screen and (min-device-width: 320px) and (max-device-height: 480px) and (-webkit-device-pixel-ratio: 1) {
-  body {
-    background: url("Images/redwood_320x480.jpg") no-repeat center center fixed;
-  }
-}
-
-/* iphone 4 */
-@media only screen and (min-device-width: 320px) and (max-device-height: 480px) and (-webkit-device-pixel-ratio: 2) {
-  body {
-    background: url("Images/redwood_320x480.jpg") no-repeat center center fixed;
-    /* background: url("Images/road_320x480.jpg") no-repeat center center fixed; */
-  }
-}
-
-/* iphone 5 */
-@media only screen and (min-device-width: 320px) and (max-device-height: 568px) and (-webkit-device-pixel-ratio: 2) {
-  body {
-    background: url("Images/redwood_640x960.jpg") no-repeat center center fixed;
-    /* background: url("Images/road_640x960.jpg") no-repeat center center fixed; */
-  }
-}
-
-/* iphone 6, 6s, 7, 8 */
-@media only screen and (min-device-width: 375px) and (max-device-height: 667px) and (-webkit-device-pixel-ratio: 2) {
-  body {
-    background: url("Images/redwood_640x960.jpg") no-repeat center center fixed;
-    /* background: url("Images/road_640x960.jpg") no-repeat center center fixed; */
-  }
-}
-
-/* iphone 6+, 6s+, 7+, 8+ */
-@media only screen and (min-device-width: 414px) and (max-device-height: 736px) and (-webkit-device-pixel-ratio: 3) {
-  body {
-    background: url("Images/redwood_640x960.jpg") no-repeat center center fixed;
-    /* background: url("Images/road_640x960.jpg") no-repeat center center fixed; */
-  }
-}
-
-/* iphone X , XS, 11 Pro */
-@media only screen and (min-device-width: 375px) and (max-device-height: 812px) and (-webkit-device-pixel-ratio: 3) {
-  body {
-    background: url("Images/redwood_640x960.jpg") no-repeat center center fixed;
-    /* background: url("Images/road_640x960.jpg") no-repeat center center fixed; */
-  }
-}
-
-/* iphone XR, 11 */
-@media only screen and (min-device-width: 414px) and (max-device-height: 896px) and (-webkit-device-pixel-ratio: 2) {
-  body {
-    background: url("Images/redwood_640x960.jpg") no-repeat center center fixed;
-    /* background: url("Images/road_640x960.jpg") no-repeat center center fixed; */
-  }
-}
-
-/* iphone XS Max, 11 Pro Max */
-@media only screen and (min-device-width: 414px) and (max-device-height: 896px) and (-webkit-device-pixel-ratio: 3) {
-  body {
-    background: url("Images/redwood_640x960.jpg") no-repeat center center fixed;
-    /* background: url("Images/road_640x960.jpg") no-repeat center center fixed; */
-  }
-}
