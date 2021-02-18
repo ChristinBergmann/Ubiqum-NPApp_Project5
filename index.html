@@ -23,6 +23,7 @@
         </div>
         <div class="navRight">
           <a href="https://www.nps.gov/index.htm" target="_blank">Official HP of NPS</a>
+          <!-- <a href="https://www.nps.gov/index.htm" target="_blank"><img src="./Images/res1-logo-nps.png" class="logo-nps" alt="Homepage of official NPS"></a> -->
         </div>
       </div>
 
@@ -43,8 +44,8 @@
     <div class="firstPage active" id="firstPage">
       <div alt="Images of National Parks" id="carouselID" class="carousel">
       </div>
-      <div id="searchContainer">
-        <input class="search" type="text" placeholder="search by State Code" id="searchInput" spellcheck="true">
+      <div class="searchContainer">
+        <input class="search" type="text" placeholder="search by State Code" id="searchInput" spellcheck="true" pattern="[A-Za-z]{2}">
         <button class="search" id="searchButton">GO</button>
       </div>
       <div id="dropdownList"></div>
