@@ -1,5 +1,5 @@
 body {
-  background: url("./Images/redwood_1920x1080.jpg") no-repeat;
+  background: url("./Images/redwood_1920x1080.jpg") no-repeat cover;
   /* background: rgba(20, 20, 20, 0.7); */
   -webkit-background-size: cover;
   -moz-background-size: cover;
