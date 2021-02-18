@@ -1,5 +1,5 @@
 body {
-  background: url("./Images/redwood_1920x1080.jpg") no-repeat center fixed;
+  background: url("./Images/redwood_1920x1080.jpg") no-repeat;
   /* background: rgba(20, 20, 20, 0.7); */
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -144,9 +144,10 @@ i:hover {
 
 #searchContainer input {
   width: 220px;
+  font-weight: 600;
   text-align: center;
-  color: rgb(32, 175, 163);
   text-transform: uppercase;
+  color: rgb(32, 175, 163);
 }
 
 #searchContainer button {
