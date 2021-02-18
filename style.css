@@ -144,7 +144,6 @@ i:hover {
 
 #searchContainer input {
   width: 220px;
-  border-radius: 5px;
   text-align: center;
   color: rgb(32, 175, 163);
   text-transform: uppercase;
@@ -304,6 +303,7 @@ i:hover {
 .copyright {
   display: flex;
   justify-content: center;
+  margin-top: 500px;
   bottom: 0;
 }
 
